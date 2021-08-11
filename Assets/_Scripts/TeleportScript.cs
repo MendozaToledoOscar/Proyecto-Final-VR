@@ -42,7 +42,11 @@ public class TeleportScript : MonoBehaviour
         float timeSinceStarted = Time.time - timerStartedLerping;
         float percentageComplete = timeSinceStarted / lerpTime;
         if (percentageComplete >= 1.0f)
+        {
+            Button_Controller.iCanClick = true;
             enableLerp = false;
+        }
+            
         var result = Vector3.Lerp(start, end, percentageComplete);
         return result;
     }

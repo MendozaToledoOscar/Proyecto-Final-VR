@@ -193,6 +193,8 @@
     <Compile Include="Assets\_Scripts\Giro_Carrusel.cs" />
     <Compile Include="Assets\_Scripts\MainMenu_Controller.cs" />
     <Compile Include="Assets\_Scripts\TeleportScript.cs" />
+    <Compile Include="Assets\_Scripts\VRGaze.cs" />
+    <Compile Include="Assets\_Scripts\VideoController.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

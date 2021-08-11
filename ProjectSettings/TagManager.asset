@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Teleport
+  - Credits
+  - Exit
+  - Back
   layers:
   - Default
   - TransparentFX
